@@ -85,6 +85,7 @@ vector<string> extract_args_file(const char* filename) {
 
 int main(int argc, char* argv[])
 {
+    cout << "Hello world!";
     if (argc == 2 && !strcmp(argv[1], "argv.txt")) {
         vector<string> file_argv = extract_args_file("argv.txt");
         for (auto x : file_argv) {
